@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "rss": "https://minecraft.net",
+  "servers": [
+    {
+      "id": "forge-189",
+      "name": "Minecraft 1.8.9 Forge",
+      "description": "Klasyczna paczka na wersji 1.8.9 z Forge",
+      "icon": "https://githubusercontent.com",
+      "version": "1.8.9",
+      "address": "mc.hypixel.net",
+      "mainServer": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318",
+          "name": "Forge Loader 1.8.9",
+          "type": "ForgeHosted",
+          "required": { "value": true, "def": true },
+          "artifact": {
+            "size": 4352631,
+            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
+            "url": "https://minecraftforge.net"
+          }
+        }
+      ]
+    },
+    {
+      "id": "forge-1201",
+      "name": "Minecraft 1.20.1 Forge",
+      "description": "Paczka modów Forge na wersji 1.20.1",
+      "icon": "https://githubusercontent.com",
+      "version": "1.20.1",
+      "address": "anarchia.gg",
+      "mainServer": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.3.0",
+          "name": "Forge Loader 1.20.1",
+          "type": "ForgeHosted",
+          "required": { "value": true, "def": true },
+          "artifact": {
+            "size": 6948574,
+            "MD5": "a1b9b942f61e860920d3f82054ff8e7b",
+            "url": "https://minecraftforge.net"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabric-1214",
+      "name": "Minecraft 1.21.4 Fabric",
+      "description": "Najnowsza paczka Fabric 1.21.4",
+      "icon": "https://githubusercontent.com",
+      "version": "1.21.4",
+      "address": "127.0.0.1",
+      "mainServer": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader 1.21.4",
+          "type": "Fabric",
+          "required": { "value": true, "def": true },
+          "artifact": {
+            "size": 216762,
+            "MD5": "761b0767c9c0b6bbf200c6114ebec422",
+            "url": "https://fabricmc.net"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.9",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "128a8d042180e7c92567342e21a21a6d",
+                "url": "https://github.io"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fabric-api",
+          "name": "Fabric API",
+          "type": "ForgeMod",
+          "required": { "value": true, "def": true },
+          "artifact": {
+            "size": 3254923,
+            "MD5": "7fa5792ef875e6d6282367b6ebbaee4e",
+            "url": "https://github.io"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabric-12111",
+      "name": "Minecraft 1.21.11 Fabric",
+      "description": "Nowoczesna paczka Fabric na wersji 1.21.11",
+      "icon": "https://githubusercontent.com",
+      "version": "1.21.11",
+      "address": "masakracja.pl",
+      "mainServer": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric Loader 1.21.11",
+          "type": "Fabric",
+          "required": { "value": true, "def": true },
+          "artifact": {
+            "size": 217466,
+            "MD5": "be8440d99bc2218454b5dfd4bebc7a52",
+            "url": "https://fabricmc.net"
+          },
+          "subModules": [
+            {
+              "id": "1.21.11-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2900,
+                "MD5": "a3b9024f2b1d3184ec06efbfaee398ab",
+                "url": "https://github.io"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fabric-api-12111",
+          "name": "Fabric API 1.21.11",
+          "type": "ForgeMod",
+          "required": { "value": true, "def": true },
+          "artifact": {
+            "size": 1456950,
+            "MD5": "5ee9658ee048259b4c062c3e1e2d4094",
+            "url": "https://github.io"
+          }
+        }
+      ]
+    }
+  ]
+}
